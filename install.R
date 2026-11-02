@@ -14,7 +14,7 @@ stopifnot(all(vapply(packages, requireNamespace, logical(1), quietly = TRUE)))
 watchlist <- file.path(root, "watchlist.txt")
 if (!file.exists(watchlist)) {
   if (!file.copy(file.path(root, "watchlist.example.txt"), watchlist)) stop("Не удалось создать watchlist.txt")
-  message("Создан watchlist.txt: впишите фамилии или ФИО перед первой проверкой.")
+  message("Создан watchlist.txt с примером «Устюжанин». Изменить список: firsthand edit.")
 }
 message("Зависимости готовы. Папка приложения: ", root)
 if (!isTRUE(getOption("registry.watch.no.command", FALSE)) && !"--no-command" %in% commandArgs(trailingOnly = TRUE)) {
