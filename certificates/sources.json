@@ -1,0 +1,47 @@
+[
+  {
+    "file": "russian_root.pem",
+    "download_url": "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt",
+    "sha256": "aa800ef345422d6158c6fafe1c06c429dbda21c3df4bb1ccb45a920ec1111399",
+    "subject": "CN=Russian Trusted Root CA,O=The Ministry of Digital Development and Communications,C=RU",
+    "issuer": "CN=Russian Trusted Root CA,O=The Ministry of Digital Development and Communications,C=RU",
+    "downloaded_at": "2026-11-02T13:20:05.684309+00:00",
+    "not_after": "2032-02-27T21:04:15+00:00"
+  },
+  {
+    "file": "russian_sub.pem",
+    "download_url": "https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt",
+    "sha256": "fd52c38348eed5f01c2ee3fb364a1fde01d7c5c850bb29a645570106cc415b80",
+    "subject": "CN=Russian Trusted Sub CA,O=The Ministry of Digital Development and Communications,C=RU",
+    "issuer": "CN=Russian Trusted Root CA,O=The Ministry of Digital Development and Communications,C=RU",
+    "downloaded_at": "2026-11-02T13:20:05.731426+00:00",
+    "not_after": "2027-03-06T11:25:19+00:00"
+  },
+  {
+    "file": "russian_sub_2024.pem",
+    "download_url": "https://gu-st.ru/content/lending/russian_trusted_sub_ca_2024_pem.crt",
+    "sha256": "6f9d829c8e6712444fce3624658d8788672849c5d5b7b53fd9cf7e83eac4193e",
+    "subject": "CN=Russian Trusted Sub CA,O=The Ministry of Digital Development and Communications,C=RU",
+    "issuer": "CN=Russian Trusted Root CA,O=The Ministry of Digital Development and Communications,C=RU",
+    "downloaded_at": "2026-11-02T13:20:05.777840+00:00",
+    "not_after": "2029-07-19T12:50:41+00:00"
+  },
+  {
+    "file": "globalsign_intermediate.pem",
+    "download_url": "https://secure.globalsign.com/cacert/gsgccr3dvtlsca2020.crt",
+    "sha256": "3e5b6c95080dcc8c80afc1f2d7cec76da0201e895064655f04c3c7c5d438ead2",
+    "subject": "CN=GlobalSign GCC R3 DV TLS CA 2020,O=GlobalSign nv-sa,C=BE",
+    "issuer": "CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R3",
+    "downloaded_at": "2026-11-02T13:20:08.477256+00:00",
+    "not_after": "2029-03-18T00:00:00+00:00"
+  },
+  {
+    "file": "globalsign_root.pem",
+    "download_url": "https://secure.globalsign.net/cacert/Root-R3.crt",
+    "sha256": "6bdc59f897631af7811e3201cbc58e5999de2600ae8667454a34514eecfd8381",
+    "subject": "CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R3",
+    "issuer": "CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R3",
+    "downloaded_at": "2026-11-02T14:30:15.256258+00:00",
+    "not_after": "2029-03-18T10:00:00+00:00"
+  }
+]

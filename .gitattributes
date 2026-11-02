@@ -1,0 +1,6 @@
+*.pem -text
+*.cmd -text
+*.R text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.md text eol=lf

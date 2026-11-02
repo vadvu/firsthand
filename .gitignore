@@ -1,0 +1,14 @@
+output/
+.state/
+.*-state/
+output_r/
+rlib/
+watchlist.txt
+watchlist.csv
+*.plist
+*.task.xml
+*.log
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
